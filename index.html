@@ -1,194 +1,296 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jack — 3D Creator</title>
-
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Vitthal | Full Stack Developer</title>
 
     <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <script src="https://unpkg.com/lucide@latest"></script>
 </head>
+
 <body>
 
-    <!-- HERO SECTION -->
-    <section class="hero">
+    <!-- NAVBAR -->
+    <nav class="navigation">
 
-        <nav class="navbar">
-            <a href="#about">About</a>
-            <a href="#services">Price</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-        </nav>
-
-        <div class="hero-image">
-            <img src="https://shrug-person-78902957.figma.site/_components/v2/d24c01ad3a56fc65e942a1f501eb73db42d7cf9a/Rectangle_40443.81459862.png"
-                alt="Jack">
+        <div class="logo">
+            VITTHAL<span>.</span>
         </div>
 
-        <div class="hero-content">
-            <h1 class="hero-heading">Hi, I'm Jack</h1>
+        <ul class="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#service">Services</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
 
-            <div class="hero-bottom">
+        <a href="#contact" class="nav-btn">
+            Hire Me
+        </a>
 
-                <p>
-                    A 3D creator driven by crafting striking and unforgettable projects.
-                </p>
+    </nav>
 
-                <button class="contact-btn">
-                    Contact Me
-                </button>
+    <!-- HERO -->
+    <section id="home">
+
+        <div class="left-div">
+
+            <span class="greeting">
+                👋 Hello, I'm
+            </span>
+
+            <h1 class="hero-name">
+                Vitthal
+            </h1>
+
+            <h3 class="subtitle">
+                Full Stack <span class="accent-text">Developer</span>
+            </h3>
+
+            <p class="hero-desc">
+                I build modern web applications using MongoDB,
+                Express.js, React and Node.js.
+                Passionate about creating fast, responsive and
+                user-friendly digital experiences.
+            </p>
+
+            <div class="cta-group">
+
+                <a href="#contact" class="cta-btn main-btn">
+                    Hire Me
+                </a>
+
+                <a href="#projects" class="cta-btn secondary-btn">
+                    View Projects
+                </a>
 
             </div>
-        </div>
 
-    </section>
+            <div class="social-icons">
 
-    <!-- MARQUEE -->
-    <section class="marquee-section">
+                <a href="https://github.com" target="_blank">
+                    GitHub
+                </a>
 
-        <div class="marquee marquee-right">
+                <a href="https://linkedin.com" target="_blank">
+                    LinkedIn
+                </a>
 
-            <img src="https://motionsites.ai/assets/hero-space-voyage-preview-eECLH3Yc.gif">
-            <img src="https://motionsites.ai/assets/hero-codenest-preview-Cgppc2qV.gif">
-            <img src="https://motionsites.ai/assets/hero-vex-ventures-preview-BczMFIiw.gif">
-            <img src="https://motionsites.ai/assets/hero-stellar-ai-v2-preview-DjvxjG3C.gif">
-            <img src="https://motionsites.ai/assets/hero-asme-preview-B_nGDnTP.gif">
-            <img src="https://motionsites.ai/assets/hero-transform-data-preview-Cx5OU29N.gif">
-            <img src="https://motionsites.ai/assets/hero-vitara-preview-Cjz2QYyU.gif">
-            <img src="https://motionsites.ai/assets/hero-terra-preview-BFjrCr7T.gif">
-            <img src="https://motionsites.ai/assets/hero-skyelite-preview-DHaZIgUv.gif">
-            <img src="https://motionsites.ai/assets/hero-aethera-preview-DknSlcTa.gif">
-            <img src="https://motionsites.ai/assets/hero-designpro-preview-D8c5_een.gif">
+                <a href="https://instagram.com" target="_blank">
+                    Instagram
+                </a>
+
+            </div>
 
         </div>
 
-        <div class="marquee marquee-left">
+        <div class="right-div">
 
-            <img src="https://motionsites.ai/assets/hero-stellar-ai-preview-D3HL6bw1.gif">
-            <img src="https://motionsites.ai/assets/hero-xportfolio-preview-D4A8maiC.gif">
-            <img src="https://motionsites.ai/assets/hero-orbit-web3-preview-BXt4OttD.gif">
-            <img src="https://motionsites.ai/assets/hero-nexora-preview-cx5HmUgo.gif">
-            <img src="https://motionsites.ai/assets/hero-evr-ventures-preview-DZxeVFEX.gif">
-            <img src="https://motionsites.ai/assets/hero-planet-orbit-preview-DWAP8Z1P.gif">
-            <img src="https://motionsites.ai/assets/hero-new-era-preview-CocuDUm9.gif">
-            <img src="https://motionsites.ai/assets/hero-wealth-preview-B70idl_u.gif">
-            <img src="https://motionsites.ai/assets/hero-luminex-preview-CxOP7ce6.gif">
-            <img src="https://motionsites.ai/assets/hero-celestia-preview-0yO3jXO8.gif">
+            <div class="image-wrapper">
+
+                <img src="./images/1773990315764[1].png"
+                    alt="Vitthal Profile">
+
+            </div>
 
         </div>
 
     </section>
 
     <!-- ABOUT -->
-    <section class="about" id="about">
+    <section id="about">
 
-        <img class="moon"
-            src="https://shrug-person-78902957.figma.site/_components/v2/ebb2b8f25d8e24d5f0a5ca8af4c950de81aa2fd7/moon_icon.11395d36.png">
+        <div class="about-image">
 
-        <img class="lego"
-            src="https://shrug-person-78902957.figma.site/_components/v2/ebb2b8f25d8e24d5f0a5ca8af4c950de81aa2fd7/lego_icon-1.703bb594.png">
+            <div class="image-wrapper">
+                <img src="/images/1773998236451[1].png"
+                    alt="About Vitthal">
+            </div>
 
-        <h2 class="hero-heading">
-            About Me
-        </h2>
+        </div>
 
-        <p class="about-text">
-            With more than five years of experience in design,
-            I focus on branding, web design, and user experience.
-            I truly enjoy working with businesses that aim to stand out
-            and present their best image. Let's build something incredible together!
-        </p>
+        <div class="about-text">
 
-        <button class="contact-btn">
-            Contact Me
-        </button>
+            <span class="section-tag">
+                About Me
+            </span>
+
+            <h2>
+                Driven By <span>Innovation</span>
+            </h2>
+
+            <p>
+                I'm a passionate Full Stack Developer focused on
+                creating scalable web applications using the
+                MERN stack. I enjoy transforming ideas into
+                modern digital products that provide real value
+                to users.
+            </p>
+
+            <div class="stats-grid">
+
+                <div class="stat-card">
+                    <h3>MERN</h3>
+                    <p>Tech Stack</p>
+                </div>
+
+                <div class="stat-card">
+                    <h3>10+</h3>
+                    <p>Projects</p>
+                </div>
+
+                <div class="stat-card">
+                    <h3>100%</h3>
+                    <p>Dedication</p>
+                </div>
+
+            </div>
+
+        </div>
 
     </section>
 
     <!-- SERVICES -->
-    <section class="services" id="services">
+    <section id="service">
 
-        <h2>Services</h2>
+        <span class="section-tag">
+            Services
+        </span>
 
-        <div class="service-item">
-            <span>01</span>
-            <div>
-                <h3>3D Modeling</h3>
-                <p>Creation of detailed objects, characters, or environments tailored to specific client needs.</p>
+        <h2>
+            My <span>Specialities</span>
+        </h2>
+
+        <div class="services-container">
+
+            <div class="card">
+                <div class="icon-wrapper">
+                    <i data-lucide="layout"></i>
+                </div>
+
+                <h3>Web Development</h3>
+
+                <p>
+                    Modern websites and web applications using
+                    React, Node.js and MongoDB.
+                </p>
             </div>
-        </div>
 
-        <div class="service-item">
-            <span>02</span>
-            <div>
-                <h3>Rendering</h3>
-                <p>High-quality photorealistic renders with custom lighting and materials.</p>
-            </div>
-        </div>
+            <div class="card">
 
-        <div class="service-item">
-            <span>03</span>
-            <div>
-                <h3>Motion Design</h3>
-                <p>Dynamic animations and motion graphics for brands and digital experiences.</p>
-            </div>
-        </div>
+                <div class="icon-wrapper">
+                    <i data-lucide="smartphone"></i>
+                </div>
 
-        <div class="service-item">
-            <span>04</span>
-            <div>
-                <h3>Branding</h3>
-                <p>Complete visual identities from logos to full brand systems.</p>
-            </div>
-        </div>
+                <h3>Responsive Design</h3>
 
-        <div class="service-item">
-            <span>05</span>
-            <div>
-                <h3>Web Design</h3>
-                <p>Modern conversion-focused websites with excellent user experience.</p>
+                <p>
+                    Mobile-friendly and responsive user interfaces
+                    for every device.
+                </p>
+
             </div>
+
+            <div class="card">
+
+                <div class="icon-wrapper">
+                    <i data-lucide="database"></i>
+                </div>
+
+                <h3>Backend Development</h3>
+
+                <p>
+                    Secure APIs, authentication systems and
+                    scalable databases.
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <div class="icon-wrapper">
+                    <i data-lucide="palette"></i>
+                </div>
+
+                <h3>UI / UX Design</h3>
+
+                <p>
+                    Beautiful interfaces focused on user
+                    experience and conversion.
+                </p>
+
+            </div>
+
         </div>
 
     </section>
 
     <!-- PROJECTS -->
-    <section class="projects" id="projects">
+    <section id="projects">
 
-        <h2 class="hero-heading">
-            Project
+        <span class="section-tag">
+            Portfolio
+        </span>
+
+        <h2>
+            Featured <span>Projects</span>
         </h2>
 
-        <div class="project-card">
+        <div class="projects-container">
 
-            <div class="project-top">
+            <div class="project-card">
 
-                <span>01</span>
+                <h3>Portfolio Website</h3>
 
-                <div>
-                    <small>CLIENT</small>
-                    <h3>Nextlevel Studio</h3>
-                </div>
+                <p>
+                    Personal portfolio website with responsive
+                    design and modern UI.
+                </p>
 
-                <button class="live-btn">
-                    Live Project
-                </button>
+                <a href="#">
+                    Live Demo →
+                </a>
 
             </div>
 
-            <div class="project-grid">
+            <div class="project-card">
 
-                <div class="left-col">
+                <h3>MERN Blog App</h3>
 
-                    <img src="https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260412_055344_5eff02e0-87a5-41ce-b64f-eb08da8f33db.png&w=1280&q=85">
+                <p>
+                    Full stack blogging platform with
+                    authentication and CRUD functionality.
+                </p>
 
-                    <img src="https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260412_055431_11d841fd-8b41-46a5-82e4-b04f2407a7d8.png&w=1280&q=85">
+                <a href="#">
+                    Live Demo →
+                </a>
 
-                </div>
+            </div>
 
-                <img class="big-image"
-                    src="https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2Fhf_20260412_055451_e317bf2d-28d4-48cc-86b0-6f72f25b6327.png&w=1280&q=85">
+            <div class="project-card">
+
+                <h3>E-Commerce Store</h3>
+
+                <p>
+                    Online shopping platform built using React,
+                    Node.js and MongoDB.
+                </p>
+
+                <a href="#">
+                    Live Demo →
+                </a>
 
             </div>
 
@@ -196,7 +298,62 @@
 
     </section>
 
-    <script src="script.js"></script>
+    <!-- CONTACT -->
+    <section id="contact">
+
+        <span class="section-tag">
+            Contact
+        </span>
+
+        <h2>
+            Let's Work <span>Together</span>
+        </h2>
+
+        <form class="contact-form">
+
+            <div class="form-row">
+
+                <div class="input-group">
+                    <input type="text" placeholder="Your Name">
+                </div>
+
+                <div class="input-group">
+                    <input type="email" placeholder="Your Email">
+                </div>
+
+            </div>
+
+            <div class="form-row">
+
+                <div class="input-group">
+                    <input type="text" placeholder="Subject">
+                </div>
+
+                <div class="input-group">
+                    <input type="tel" placeholder="Phone Number">
+                </div>
+
+            </div>
+
+            <div class="input-group">
+
+                <textarea placeholder="Your Message"></textarea>
+
+            </div>
+
+            <button class="submit-btn" type="submit">
+                Send Message
+            </button>
+
+        </form>
+
+    </section>
+
+    <script>
+        lucide.createIcons();
+    </script>
 
 </body>
+
 </html>
+```
